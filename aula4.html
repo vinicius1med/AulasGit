@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Folhas de Estilo pt1</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        /* o "*" definine que TODO elemento da pagina sera alinhado á... 
+        (no caso aparente, padding 0 e margin 0) */
+      }
+      /* Style define que para toda TAG (no caso aqui e a tag "p", definida
+      abaixo (destacada em azul) dentro do arquivo atualmente aberto, ela será
+      estilizada com as caracteristicas definidas dentro das {}...) */
+      p {
+        color: #efb7ef;
+        font-size: 25px;
+        /* para tamanha da fonte não é ideal utilizar as unidades de medida: px, cm, pt, utiliza-se "rem" e "em", 
+        porem existem casos especificos que ainda se utiliza. */
+        border: 2px solid red;
+        /* o border nesse caso e utilizado para saber exatamente a posição do parágrafo, nesse 
+        caso foi utilizado para saber a distancia do texto à borda da página. */
+        margin: 1px;
+      }
+      div {
+        background: #808080;
+        color: #fff;
+        /* a propriedade color SEMPRE irá alterar a cor da LETRA */
+        width: 100px;
+        height: 200px;
+        border: 1px solid red;
+        padding: 10px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <p style="color: purple; font-size: 30px">My frist style - InLine Style</p>
+    <p>Meu segundo estilo - Internal Style Sheet</p>
+    <!-- Esse segundo estilo precisa ser declarado dentro do head -->
+    <p>Vinícius Medina</p>
+    <p>IFMS</p>
+    <div>Meu primeiro DIV</div>
+    <div>Meu segundo DIV</div>
+  </body>
+</html>

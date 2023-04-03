@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 1px solid #000;
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+    /* margin 0 auto centraliza em relação ao body*/
+    position: relative;
+     /* usasse o pósition relative aqui porque por padrao o html deixa as posicoes absolutas com relacao ao body */
+    overflow: hidden;
+    /* overflow e usado para esconder ou nao algo relativo a algo (no caso o hidden e 
+    para esconder relativo a "vontainer"), no caso aqui tudo que sair fora de "container" sera escondido. */
+}
+
+.container div {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #000;
+    margin: 10px;
+    position: absolute;
+    border-radius: 15px;
+}
+
+.box1 {
+    background: #3fa;
+    /* posicao absoluta (0,0) a partir do canto superior esquerdo */
+}
+
+.box2 {
+    background: #7773fa;
+    top: 110px;
+    left: 30px;
+}
+
+.box3 {
+    background: #77b0ffaa;
+    top: 220px;
+    right: -130px;
+}
+
+.box4 {
+    background: #880563;
+    top: 330px;
+}
