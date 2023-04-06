@@ -2,26 +2,17 @@
 
 :root {
     --primary-color: #5e4ae3;
-
     --shadow-color: #bfbfbf;
-
     --bg-logo: #DEDEDE;
-
     --primary-bg-color: #EBEDF2;
-
     --primary-text-color: #050505;
-
     --border-radius: 5rem;
-
     --warn-color: #F6C81A;
     --white-color: #fff;
-
     --bg-button-info: #3C337D;
     --bg-button-danger: #E82D79;
     --bg-button-cat: #D5D6DA;
-
     --bg-feature1: #FBD1E4;
-
 }
 
 
