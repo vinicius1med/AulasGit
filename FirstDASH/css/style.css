@@ -177,17 +177,23 @@ html {
 
 .container #nav .nav-l .back-interaction {
   display: flex;
+  position: relative;
+  margin-right: 3rem;
 }
 
 .container #nav .nav-l .back-interaction p {
   display: flex;
   align-items: center;
+  position: absolute;
+  left: 2rem;
+  top: .4rem;
+  font-size: 1.4rem;
 }
 
 .container #nav .nav-l .back-interaction i {
   display: flex;
   align-items: center;
-  font-size: 3.2rem;
+  font-size: 2.8rem;
 }
 
 .container #nav .nav-l .menu-nav-l {
@@ -303,18 +309,24 @@ html {
   margin-top: 3rem;
 }
 
-/* .container .content #aside .interactive-menu .bx-message-rounded {
-  display: flex;
-  flex-direction: column;
+.container .content #aside .interactive-menu .bx-message-rounded {
   position: relative;
 }
 
-.container .content #aside .interactive-menu .bx-message-alert-rounded .message-alert {
-  border: .1rem solid black;
-  width: 5rem;
-  height: 5rem;
+.container .content #aside .interactive-menu .bx-message-rounded .message-alert {
+  /* border: .1rem solid black; */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
   position: absolute;
-} */
+  bottom: 2rem;
+  left: 1.7rem;
+  background: var(--alert-color);
+}
 
 .container .content #aside .userprofile-aside {
   /* border:.1rem solid #000000; */
@@ -368,9 +380,53 @@ html {
 .container .content #sec1 {
   width: 48rem;
   height: 100%;
-  border: 0.1rem solid rgb(255, 36, 36);
+  /* border: 0.1rem solid rgb(255, 36, 36); */
   /* background: rgb(255, 36, 36); */
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
 }
+
+.container .content #sec1 .menu-nav-interaction-name {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  
+}
+
+.container .content #sec1 .menu-sec1 {
+  border: .1rem solid black;
+  /* width: 8rem; */
+  height: 60rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .content #sec1 .menu-sec1 .menu-access {
+  /* border: .1rem solid rgb(255, 0, 0); */
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.container .content #sec1 .menu-sec1 .menu-access .menu-item-sec1 {
+  border: .1rem solid blue;
+  height: 10rem;
+  margin-bottom: 1rem;
+}
+
+
+.container .content #sec1 .menu-yourplan-sec1 {
+  border: .1rem solid black;
+  height: 20rem;
+  border-radius: 1rem;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+
 
 
 

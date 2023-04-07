@@ -128,7 +128,7 @@ h3 {
 .container .content #aside {
     height: 100%;
     width: 10rem;
-    /* border: .2rem solid blueviolet; */
+    border: .2rem solid blueviolet;
     background: var(--primary-bg-color);
     color: #fff;
     display: flex;
@@ -170,7 +170,7 @@ h3 {
 .container .content #sec1 {
     height: 100%;
     width: 30rem;
-    /* border: .2rem solid blueviolet; */
+    border: .2rem solid blueviolet;
     background: var(--primary-bg-color);
 }
 
