@@ -207,6 +207,7 @@ h3 {
     font-weight: 300;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .container .content #sec1 .menu .item i {
