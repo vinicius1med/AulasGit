@@ -20,13 +20,21 @@
     text-decoration: none;
     list-style: none;
 }
-  
-  html {
+
+html {
   font-size: 62.5%;
 }
 
 body {
   font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: .4rem;
 }
 
 .container {
@@ -122,10 +130,7 @@ section {
   background: var(--bg-section);
   border-top: 0.1rem solid var(--shadow);
   display: grid;
-  align-items: center;
-}
-
-section h1 {
+  align-items: center;  
   font-weight: 500;
   font-size: 3rem;
   padding-left: 6rem;
@@ -165,4 +170,28 @@ main .list .button button:nth-child(2) {
   background: var(--bg-button);
   color: #fff;
   width: 13rem;
+}
+
+main table thead td:nth-child(1){
+  width: 11rem;
+}
+
+main table thead td:nth-child(2){
+  width: 25rem;
+}
+
+main table thead td:nth-child(3){
+  width: 13rem;
+}
+
+main table thead td:nth-child(4){
+  width: 13rem;
+}
+
+main table thead td:nth-child(5){
+  width: 13rem;
+}
+
+main table td img {
+  height: 10rem;
 }
