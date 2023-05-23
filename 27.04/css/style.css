@@ -30,16 +30,18 @@ body {
 }
 
 h4 {
-  font-size: 2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
 }
 
 h5 {
-  font-size: .4rem;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .container {
   margin: 0 auto;
-  /* border: .1rem solid red; */
+  border: .1rem solid red;
   width: 80vw;
   height: 100vh;
   box-shadow: 1rem 1rem 2rem var(--shadow);
@@ -110,7 +112,7 @@ header .h-dir .cart, .user {
 }
 
 header .h-dir .cart .notify {
-  background-color: var(--bg-notify);
+  background: var(--bg-notify);
   border-radius: 50%;
   width: 2rem;
   height: 2rem;
@@ -138,8 +140,10 @@ section {
 }
 
 main .list {
-  border: .1rem solid var(--shadow);
+  border: .1rem solid blue;
   margin-left: 6rem;
+  margin-top: 5rem;
+  padding: 1rem;
   border-radius: 1rem;
   display: grid;
   grid-template-rows: 1fr 5rem;
@@ -172,6 +176,11 @@ main .list .button button:nth-child(2) {
   width: 13rem;
 }
 
+main table thead td {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
 main table thead td:nth-child(1){
   width: 11rem;
 }
@@ -193,5 +202,28 @@ main table thead td:nth-child(5){
 }
 
 main table td img {
-  height: 10rem;
+  height: 11rem;
+  /* padding-top: 2rem; */
+  padding-left: 1rem;
 }
+
+main table tbody td {
+  padding-top: 2rem;
+}
+
+main table tbody select {
+  width: 12.5rem;
+  height: 4.7rem;
+  border: .1rem solid black;
+  border-radius: .5rem;
+  font-size: 1.8rem;
+  padding-left: 2rem  ;
+}
+
+/* main .payment {
+  border: .1rem solid blue;
+} */
+
+/* main .product-list {
+  border: .1rem solid green;
+} */
